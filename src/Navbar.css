@@ -1,0 +1,22 @@
+.name{
+    color: red;
+}
+.appname{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-size: 100% auto;
+    background: url("https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animate 30s alternate infinite;
+}
+@keyframes animate{
+    from{
+        background-position: 0% 100%;
+    }
+    to{
+        background-position: 100% 50%;
+    }
+}
