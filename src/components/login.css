@@ -1,0 +1,57 @@
+.login{
+    background-image: url("https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg?size=626&ext=jpg&ga=GA1.1.784249210.1705073781&semt=ais");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh );
+    object-fit: cover;
+ 
+  
+}
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    padding: 40px 40px;
+    width: 500px;
+    box-shadow: 0.1rem 0.1rem #e233b3, -0.1rem -0.1rem #16e7e0
+   
+    
+}
+.input-box{
+    background-color: transparent;
+    padding: 5px 10px;
+   width: 100%;
+    border: 1px solid #16e7e0;
+    border-radius: 8px;
+    font-weight: 700;
+   
+}
+.btn{
+    background-color: #e05fbe;
+    border: none;
+    cursor: pointer;
+
+} 
+.input-box:active{
+    border: 3px solid red;
+}
+@media only screen and (max-width: 768px) {
+    .main-container{
+        width: 350px;
+ padding: 25px 20px;
+   }
+  }
+  @media only screen and (max-width: 600px) {
+    .main-container{
+        width: 300px;
+ padding: 25px 5px;
+   }
+  }
+  @media only screen and (max-width: 400px) {
+    .main-container{
+ padding: 25px 5px;
+   }
+  }
+  
