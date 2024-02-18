@@ -26,6 +26,7 @@
     border: 1px solid #16e7e0;
     border-radius: 8px;
     font-weight: 700;
+    outline: none;
    
 }
 .btn{
@@ -34,8 +35,9 @@
     cursor: pointer;
 
 } 
-.input-box:active{
-    border: 3px solid red;
+.input-box:focus{
+    border: 1px solid rgb(93, 9, 228);
+    
 }
 @media only screen and (max-width: 768px) {
     .main-container{

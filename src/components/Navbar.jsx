@@ -11,61 +11,54 @@ export const Navbar = () => {
         justifyContent={"space-around"}
         width={"100%"}
         height={"70px"}
-        
-      
         alignItems={"center"}
-        // padding={"5px"}
-        background={"#459c98"}
-      
+        background={"#f8f7f4"}
       >
-        <Box   className="appname" >
-          {" "}
-          NotesAPP
-        </Box>
+        <Box className="appname"> NotesAPP</Box>
 
         <Box
           display="flex"
           justifyContent={"space-around"}
-         
           width={"85%"}
           alignItems={"center"}
-         
         >
-            <NavLink
-  to="/notes"
-  style={({ isActive, isPending, isTransitioning }) => {
-    return {
-      fontWeight: isActive ? "bold" : "",
-      color: isActive ? "pink" : "white",
-      viewTransitionName: isTransitioning ? "slide" : "",
-    };
-  }}
->
-  Notes
-</NavLink>
-<NavLink
-  to="/login"
-  style={({ isActive, isPending, isTransitioning }) => {
-    return {
-      fontWeight: isActive ? "bold" : "",
-      color: isActive ? "pink" : "white",
-      viewTransitionName: isTransitioning ? "slide" : "",
-      
-    };
-  }}
-  
->
-     <Text padding={"5px 20px"} colorScheme="teal" fontFamily={"cursive"} background={"#4681f4"}>Login</Text>
- 
-</NavLink>
-         
-         
+          <NavLink
+            to="/notes"
+            style={({ isActive, isTransitioning }) => {
+              return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "pink" : "white",
+                viewTransitionName: isTransitioning ? "slide" : "",
+              };
+            }}
+          >
+            Notes
+          </NavLink>
+          <NavLink
+            to="/login"
+            style={({ isActive, isPending, isTransitioning }) => {
+              return {
+                fontWeight: isActive ? "bold" : "",
+                color: isActive ? "pink" : "white",
+                viewTransitionName: isTransitioning ? "slide" : "",
+              };
+            }}
+          >
+            <Text
+              padding={"5px 20px"}
+             color={"white"}
+              fontFamily={"cursive"}
+              background={"#e05fbe"}
+              borderRadius={"8px"}
+            >
+              Login / Signup
+            </Text>
+          </NavLink>
         </Box>
       </Box>
     </>
   );
 };
-
 
 // import { Box, Flex, Text } from "@chakra-ui/react";
 // import { NavLink } from "react-router-dom";

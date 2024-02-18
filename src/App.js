@@ -2,6 +2,7 @@
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Router } from './components/router';
+import { Signup } from './components/signIn';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App" >
 <Navbar/>
 <Router/>
+
 
     </div>
   );
