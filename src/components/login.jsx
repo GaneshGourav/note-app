@@ -55,9 +55,7 @@ export const Login = () => {
               color="black"
             />
           </form> <br />
-          <Text>Already have an account?
-          <a href="/signup">Sign Up</a>
-          
+          <Text>Don't have an account?&nbsp;<span className="span-element"><a href="/signup">Sign Up</a></span>
              </Text>
         </Box>
         

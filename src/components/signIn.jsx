@@ -33,7 +33,7 @@ export const Signup = () => {
             <br /> <br />
             <input
               type="password"
-              placeholder="Enter your Password"
+              placeholder="Choose your Password"
               className="input-box"
             />{" "}
             <br /> <br />
@@ -43,7 +43,8 @@ export const Signup = () => {
               className="input-box btn"
               color="black"
             />
-          </form>
+          </form> <br />
+          <Text>Already an account login?&nbsp;<span className="span-element" ><a href="/login">SignIn</a></span></Text>
         </Box>
       </Box>
     </>
