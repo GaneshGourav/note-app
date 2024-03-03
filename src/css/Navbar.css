@@ -2,9 +2,10 @@
     color: red;
 }
 .appname{
-    font-size: 20px;
+    font-size: 30px;
+    font-family: Great Vibes;
     font-weight: bold;
-    text-transform: uppercase;
+   letter-spacing: 3px;
     background-size: 100% auto;
     background: url("https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-clip: text;

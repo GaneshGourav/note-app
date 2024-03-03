@@ -1,9 +1,10 @@
 .login{
-    background-image: url("https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg?size=626&ext=jpg&ga=GA1.1.784249210.1705073781&semt=ais");
+    background-image: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE0fHxiYWNrZ3JvdW5kJTIwZGVzaWdufGVufDB8fDB8fHww");
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh );
     object-fit: cover;
+    color: white;
  
   
 }
@@ -43,11 +44,11 @@
    
 }
 .input-box:focus{
-    border: 1px solid rgb(93, 9, 228);
+    border: 1px solid white;
     
 }
 .span-element{
-    color: #e05fbe;
+    color: #fff;
     font-weight: 700;
 }
 @media only screen and (max-width: 768px) {

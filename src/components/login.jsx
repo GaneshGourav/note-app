@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 
-import "./login.css";
+import "../css/login.css";
 
 export const Login = () => {
   return (

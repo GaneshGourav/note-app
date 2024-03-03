@@ -1,5 +1,5 @@
 import React from "react";
-import "../Navbar.css";
+import "../css/Navbar.css";
 import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 
@@ -14,7 +14,7 @@ export const Navbar = () => {
         alignItems={"center"}
         background={"#f8f7f4"}
       >
-        <Box className="appname"> NotesAPP</Box>
+        <Box className="appname" > Notes</Box>
 
         <Box
           display="flex"
