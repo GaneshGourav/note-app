@@ -2,8 +2,11 @@ import React from "react";
 import "../css/Navbar.css";
 import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 export const Navbar = () => {
+  const name = useSelector((store) => store.authReducer.name);
+  const isAuth = useSelector((store) => store.authReducer.isAuth);
   return (
     <>
       <Box
@@ -34,7 +37,8 @@ export const Navbar = () => {
           >
             Notes
           </NavLink>
-          <NavLink
+        
+        {isAuth?`Welcome ${name}`:<NavLink
             to="/login"
             style={({ isActive, isPending, isTransitioning }) => {
               return {
@@ -44,6 +48,7 @@ export const Navbar = () => {
               };
             }}
           >
+            
             <Text
               padding={"5px 20px"}
              color={"white"}
@@ -53,7 +58,8 @@ export const Navbar = () => {
             >
               Login / Signup
             </Text>
-          </NavLink>
+          </NavLink>}
+          
         </Box>
       </Box>
     </>

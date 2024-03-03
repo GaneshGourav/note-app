@@ -1,3 +1,7 @@
 export const SIGNUP_REQ = "SIGNUP_REQ";
 export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
 export const SIGNUP_FAILURE = "SIGNUP_FAILURE";
+
+export const LOGIN_REQ = "LOGIN_REQ";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
